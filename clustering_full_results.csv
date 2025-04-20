@@ -1,0 +1,43 @@
+Algorithm,Method,Clusters,Silhouette,Calinski-Harabasz,Davies-Bouldin
+KMeans,No Processing,3,0.55,562,0.67
+KMeans,No Processing,4,0.5,530,0.75
+KMeans,No Processing,5,0.49,495,0.82
+Hierarchical,No Processing,3,0.55,558,0.66
+Hierarchical,No Processing,4,0.49,515,0.8
+Hierarchical,No Processing,5,0.48,488,0.82
+MeanShift,No Processing,2,0.69,510,0.39
+KMeans,Normalization,3,0.48,351,0.79
+KMeans,Normalization,4,0.44,314,0.91
+KMeans,Normalization,5,0.42,263,0.99
+Hierarchical,Normalization,3,0.5,349,0.75
+Hierarchical,Normalization,4,0.43,301,0.85
+Hierarchical,Normalization,5,0.35,272,0.91
+MeanShift,Normalization,2,0.63,354,0.49
+KMeans,Transform,3,0.56,434,0.92
+KMeans,Transform,4,0.39,604,1.03
+KMeans,Transform,5,0.33,614,1.07
+Hierarchical,Transform,3,0.55,789,0.65
+Hierarchical,Transform,4,0.49,700,0.74
+Hierarchical,Transform,5,0.34,592,0.96
+MeanShift,Transform,2,0.75,821,0.32
+KMeans,PCA,3,0.6,694,0.56
+KMeans,PCA,4,0.56,719,0.62
+KMeans,PCA,5,0.51,642,0.75
+Hierarchical,PCA,3,0.6,689,0.56
+Hierarchical,PCA,4,0.54,674,0.65
+Hierarchical,PCA,5,0.55,666,0.65
+MeanShift,PCA,2,0.71,566,0.36
+KMeans,T+N,3,0.54,258,0.77
+KMeans,T+N,4,0.37,332,0.95
+KMeans,T+N,5,0.33,323,1.02
+Hierarchical,T+N,3,0.48,393,0.77
+Hierarchical,T+N,4,0.43,335,0.89
+Hierarchical,T+N,5,0.32,311,1.01
+MeanShift,T+N,2,0.67,458,0.45
+KMeans,T+N+PCA,3,0.55,540,0.65
+KMeans,T+N+PCA,4,0.45,456,0.77
+KMeans,T+N+PCA,5,0.42,490,0.79
+Hierarchical,T+N+PCA,3,0.54,498,0.61
+Hierarchical,T+N+PCA,4,0.5,466,0.75
+Hierarchical,T+N+PCA,5,0.41,463,0.82
+MeanShift,T+N+PCA,2,0.7,535,0.4
